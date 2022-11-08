@@ -50,11 +50,13 @@ def main(word):
         meaning(data)
     except KeyError:
         print(
-            "Sorry, We cannot find this word! Verify if you're typing the correct language."
+            "Sorry, We cannot find this word!"
         )
         return
 
 
 if __name__ == "__main__":
-
-    main(sys.argv[1])
+    if len(sys.argv) < 2:
+        print('No input word, tpye word as input argument.')
+    else:
+        main(sys.argv[1])
