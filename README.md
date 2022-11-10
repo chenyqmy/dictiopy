@@ -6,6 +6,7 @@ Type one word as input argument.
 
 ```
 $dictio hello
+
 hello  /həˈləʊ/
 Noun
 1. "Hello!" or an equivalent greeting.
@@ -20,5 +21,3 @@ Interjection
 ```
 ## Dependencies
 [FreeDcitionaryApi](https://dictionaryapi.dev/)
-## Referrence
-[cli-dictionary](https://github.com/cli-dictionary/cli-dictionary)
