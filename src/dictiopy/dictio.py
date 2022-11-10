@@ -84,7 +84,7 @@ def main(word,a,e,s):
             click.echo('\n'.join(all_meanings))
             click.echo('\n'.join(all_examples))
             click.echo('Synonyms--------------------')
-            click.echo(' '.join(all_synonyms))
+            click.echo(', '.join(all_synonyms))
 
         elif e and (a is False):
             click.echo(first_line)
@@ -92,7 +92,7 @@ def main(word,a,e,s):
         elif s and (a is False):
             click.echo(first_line)
             click.echo('Synonyms--------------------')
-            click.echo(' '.join(all_synonyms))                   
+            click.echo(', '.join(all_synonyms))                   
         else:
             click.echo(first_line)
             click.echo('\n'.join(all_meanings))
