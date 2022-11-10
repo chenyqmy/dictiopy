@@ -1,9 +1,10 @@
 # Dictio
 A very simple python command line English dictionary tool
-## Usage
-Type one word as input argument.
 ## Install
 $pip install dictiopy
+## Usage
+Type one word as input argument.
+
 
 ```
 $dictio hello
